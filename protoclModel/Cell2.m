@@ -38,18 +38,12 @@
     return view.bounds.size.height;
 }
 
-- (void)selectedCallback:(id)obj {
+- (void)selectedCallbackWithObject:(id)obj {
 //    if ([obj isKindOfClass:[UIViewController class]]) {
 //        [[Tools currentUiViewController] presentViewController:(UIViewController*)obj animated:YES completion:^{}];
 //    }
     NSLog(@"%@----%@",NSStringFromClass(self.class),obj);
 }
 
-- (IMP)callback {
-    return imp_implementationWithBlock(^(id instance){
-        if ([instance isKindOfClass:[UIViewController class]]) {
-            [[Tools currentUiViewController] presentViewController:(UIViewController*)instance animated:YES completion:^{}];
-        }
-    });
-}
+
 @end

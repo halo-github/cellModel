@@ -39,7 +39,7 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"Cell2" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell2"];
     [self.tableView registerNib:[UINib nibWithNibName:@"Cell3" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell3"];
     [self.tableView registerNib:[UINib nibWithNibName:@"Cell4" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"Cell4"];
-    _dataArr = @[@"Cell1",@"Cell2",@"Cell3",@"Cell4"];
+    _dataArr = @[@"Cell1",@"Cell2",@"Cell3",@"Cell4",@"Cell1",@"Cell2",@"Cell3",@"Cell4"];
 }
 
 - (void)didReceiveMemoryWarning {

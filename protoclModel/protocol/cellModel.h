@@ -10,12 +10,13 @@ typedef void (^selectedCallback)();
 
 
 @protocol cellModel <NSObject>
+@property (nonatomic, strong) NSString* name;
 @required
 /*
  根据传入的obj的数据类型，在相应的类中实现selectedCallback:
  使得调用这个类的对象只需要关心他本身的行为，不用再在VC里写一串的if。。else
  */
-- (void)selectedCallback:(id)obj;
+- (void)selectedCallbackWithObject:(id)obj;
 @optional
 
 /*

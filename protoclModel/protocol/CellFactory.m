@@ -29,7 +29,7 @@
 
 + (void)commitCellCallbackWithReuseIdentifier:(NSString*)ident Object:(id)obj {
     id<cellModel> cell = [self cellWithReuseIdentifier:ident];
-    SEL sel = NSSelectorFromString(@"selectedCallback:");
+    SEL sel = NSSelectorFromString(@"selectedCallbackWithObject:");
     [cell performSelector:sel withObject:obj];
 }
 
