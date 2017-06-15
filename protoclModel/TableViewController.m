@@ -70,6 +70,9 @@
 //    return view.bounds.size.height;
 
 }
+- (IBAction)jumptTo:(id)sender {
+    
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString* ident = _dataArr[indexPath.row];

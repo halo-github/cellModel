@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0136011EF0D70500169D92 /* Storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0136001EF0D70500169D92 /* Storyboard1.storyboard */; };
+		AB0136041EF0D7E400169D92 /* VC1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0136031EF0D7E400169D92 /* VC1ViewController.m */; };
 		AB3FF3891EEBF05700852798 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3FF3881EEBF05700852798 /* Tools.m */; };
 		AB524D611EEA311C00871B87 /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB524D601EEA311C00871B87 /* Cell1.xib */; };
 		AB524D641EEA321500871B87 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB524D631EEA321500871B87 /* TableViewController.m */; };
@@ -20,15 +22,11 @@
 		AB6E83A91EEE5ED000D3FD07 /* Cell4.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E83A81EEE5ED000D3FD07 /* Cell4.m */; };
 		AB8060B51EE9443E003340CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060B41EE9443E003340CD /* main.m */; };
 		AB8060B81EE9443E003340CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060B71EE9443E003340CD /* AppDelegate.m */; };
-		AB8060BB1EE9443E003340CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060BA1EE9443E003340CD /* ViewController.m */; };
 		AB8060BE1EE9443E003340CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8060BC1EE9443E003340CD /* Main.storyboard */; };
 		AB8060C01EE9443E003340CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8060BF1EE9443E003340CD /* Assets.xcassets */; };
 		AB8060C31EE9443E003340CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8060C11EE9443E003340CD /* LaunchScreen.storyboard */; };
 		AB8060CE1EE9443E003340CD /* protoclModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060CD1EE9443E003340CD /* protoclModelTests.m */; };
 		AB8060D91EE9443E003340CD /* protoclModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060D81EE9443E003340CD /* protoclModelUITests.m */; };
-		AB8060E81EE94475003340CD /* View1.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060E71EE94475003340CD /* View1.m */; };
-		AB8060EB1EE944BF003340CD /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060EA1EE944BF003340CD /* View2.m */; };
-		AB8060EF1EE94CA1003340CD /* ViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8060EE1EE94CA1003340CD /* ViewFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0136001EF0D70500169D92 /* Storyboard1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard1.storyboard; sourceTree = "<group>"; };
+		AB0136021EF0D7E400169D92 /* VC1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC1ViewController.h; sourceTree = "<group>"; };
+		AB0136031EF0D7E400169D92 /* VC1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC1ViewController.m; sourceTree = "<group>"; };
 		AB3FF3871EEBF05700852798 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		AB3FF3881EEBF05700852798 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		AB524D601EEA311C00871B87 /* Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Cell1.xib; path = ../Cell1.xib; sourceTree = "<group>"; };
@@ -72,8 +73,6 @@
 		AB8060B41EE9443E003340CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB8060B61EE9443E003340CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB8060B71EE9443E003340CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB8060B91EE9443E003340CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB8060BA1EE9443E003340CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB8060BD1EE9443E003340CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8060BF1EE9443E003340CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8060C21EE9443E003340CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,13 +83,6 @@
 		AB8060D41EE9443E003340CD /* protoclModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protoclModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8060D81EE9443E003340CD /* protoclModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protoclModelUITests.m; sourceTree = "<group>"; };
 		AB8060DA1EE9443E003340CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB8060E61EE94475003340CD /* View1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View1.h; sourceTree = "<group>"; };
-		AB8060E71EE94475003340CD /* View1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View1.m; sourceTree = "<group>"; };
-		AB8060E91EE944BF003340CD /* View2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View2.h; sourceTree = "<group>"; };
-		AB8060EA1EE944BF003340CD /* View2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View2.m; sourceTree = "<group>"; };
-		AB8060EC1EE94501003340CD /* ViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewProtocol.h; sourceTree = "<group>"; };
-		AB8060ED1EE94CA1003340CD /* ViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFactory.h; sourceTree = "<group>"; };
-		AB8060EE1EE94CA1003340CD /* ViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,16 +158,10 @@
 				AB524D731EEA3A9400871B87 /* protocol */,
 				AB8060B61EE9443E003340CD /* AppDelegate.h */,
 				AB8060B71EE9443E003340CD /* AppDelegate.m */,
-				AB8060B91EE9443E003340CD /* ViewController.h */,
-				AB8060BA1EE9443E003340CD /* ViewController.m */,
-				AB8060ED1EE94CA1003340CD /* ViewFactory.h */,
-				AB8060EE1EE94CA1003340CD /* ViewFactory.m */,
-				AB8060EC1EE94501003340CD /* ViewProtocol.h */,
-				AB8060E61EE94475003340CD /* View1.h */,
-				AB8060E71EE94475003340CD /* View1.m */,
-				AB8060E91EE944BF003340CD /* View2.h */,
-				AB8060EA1EE944BF003340CD /* View2.m */,
 				AB8060BC1EE9443E003340CD /* Main.storyboard */,
+				AB0136001EF0D70500169D92 /* Storyboard1.storyboard */,
+				AB0136021EF0D7E400169D92 /* VC1ViewController.h */,
+				AB0136031EF0D7E400169D92 /* VC1ViewController.m */,
 				AB8060BF1EE9443E003340CD /* Assets.xcassets */,
 				AB8060C11EE9443E003340CD /* LaunchScreen.storyboard */,
 				AB8060C41EE9443E003340CD /* Info.plist */,
@@ -330,6 +316,7 @@
 				AB8060BE1EE9443E003340CD /* Main.storyboard in Resources */,
 				AB524D661EEA347800871B87 /* Cell2.xib in Resources */,
 				AB524D611EEA311C00871B87 /* Cell1.xib in Resources */,
+				AB0136011EF0D70500169D92 /* Storyboard1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,19 +341,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB8060BB1EE9443E003340CD /* ViewController.m in Sources */,
 				AB8060B81EE9443E003340CD /* AppDelegate.m in Sources */,
 				AB6E83A91EEE5ED000D3FD07 /* Cell4.m in Sources */,
-				AB8060EB1EE944BF003340CD /* View2.m in Sources */,
 				AB3FF3891EEBF05700852798 /* Tools.m in Sources */,
 				AB524D701EEA366F00871B87 /* Cell3.m in Sources */,
 				AB524D6C1EEA365F00871B87 /* Cell2.m in Sources */,
 				AB524D691EEA363800871B87 /* Cell1.m in Sources */,
-				AB8060E81EE94475003340CD /* View1.m in Sources */,
 				AB8060B51EE9443E003340CD /* main.m in Sources */,
 				AB524D641EEA321500871B87 /* TableViewController.m in Sources */,
-				AB8060EF1EE94CA1003340CD /* ViewFactory.m in Sources */,
 				AB524D7B1EEA496C00871B87 /* CellFactory.m in Sources */,
+				AB0136041EF0D7E400169D92 /* VC1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
